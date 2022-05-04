@@ -1,0 +1,10 @@
+<div
+  [ngClass]="{
+    green: todo.completed,
+    red: !todo.completed
+  }"
+>
+  <p *ngIf="!todo.completed">Task number {{ todo.id }} - Uncompleted</p>
+  <p *ngIf="todo.completed">Task number {{ todo.id }} - Completed</p>
+  <h3>Task description: {{ todo.title }}</h3>
+</div>

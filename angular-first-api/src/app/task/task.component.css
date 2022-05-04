@@ -1,0 +1,28 @@
+.body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.green {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    border: green 2px solid;
+    border-radius: 8px;
+    background-color: rgb(196, 242, 196);
+    padding: 16px;
+    margin: 8px;
+}
+
+.red {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    border: red 2px solid;
+    border-radius: 8px;
+    background-color: lightpink;
+    padding: 16px;
+    margin: 8px;
+}
